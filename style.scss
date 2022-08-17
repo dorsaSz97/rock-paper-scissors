@@ -245,7 +245,7 @@ body {
     cursor: pointer;
     transition: all 0.3s;
     &:hover {
-      box-shadow: 0 0 10px rgba(var(--color-light), 0.2);
+      box-shadow: 0 0 10px rgba(#fff, 0.2);
     }
   }
 }
@@ -261,7 +261,7 @@ body {
   justify-content: center;
   position: absolute;
   inset: 0;
-  background-color: rgba(var(--color-dark), 0.8);
+  background-color: rgba(#272b37, 0.8);
   opacity: 0;
   visibility: hidden;
   transition: all 0.4s ease-in;
