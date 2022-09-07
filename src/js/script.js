@@ -55,7 +55,10 @@ function collectChoices(e) {
   const userChoice = pickedBtn.dataset.pick;
 
   computerChoice = randomComputerChoice();
-  computerPickedImg.setAttribute('src', `images/${computerChoice.pick}.png`);
+  computerPickedImg.setAttribute(
+    'src',
+    `assets/images/${computerChoice.pick}.png`
+  );
 
   animateChoices(pickedBtn, userChoice, computerChoice, computerPickedImg);
 }
